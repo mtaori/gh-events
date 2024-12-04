@@ -32,10 +32,9 @@ jobs:
               uses: actions/upload-artifact@v3
               with:
                 name: my-artifacts
-                path: |
-                    artifacts
-                    package.json
-
+                path: | 
+                   dist-files
+                   package.json
 
     deploy:
         needs: build
