@@ -33,9 +33,8 @@ jobs:
               with:
                 name: my-artifacts
                 path: | 
-                   dist-files
+                   dist
                    package.json
-
     deploy:
         needs: build
         runs-on: ubuntu-latest
