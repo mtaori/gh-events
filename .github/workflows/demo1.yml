@@ -33,7 +33,7 @@ jobs:
               with:
                 name: artifacts
                 path: |
-                  gh-events
+                  second-project
                   package.json
     deploy:
         needs: build
