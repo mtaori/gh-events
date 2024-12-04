@@ -33,7 +33,7 @@ jobs:
               with:
                 name: artifacts
                 path: |
-                  second-project
+                  dist
                   package.json
     deploy:
         needs: build
