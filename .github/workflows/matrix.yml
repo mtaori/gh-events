@@ -20,5 +20,6 @@ jobs:
               working-directory: second-project
             - name: Build project
               run: npm run build
+              working-directory: second-project
 
 
