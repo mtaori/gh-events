@@ -44,8 +44,7 @@ jobs:
                   package.json
     deploy:
         needs: build
-        runs-on: ubuntu-latest
-        uses: ./github/workflows/resuable.yml
+        uses: ./github/workflows/reusable.yml
     report:
       needs: deploy
       if: failure()
